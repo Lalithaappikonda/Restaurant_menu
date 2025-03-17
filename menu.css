@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 15% 15% 70%;
+    height: 130vh;
+}
+.main-container{
+    display: flex;
+    padding-left: 150px;
+    grid-row: 1/2;
+    background-color: #ffce8b;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.main-div{
+    display: flex;
+    grid-row: 1/2;
+   
+}
+.sub-div{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 150px;
+    padding-left: 100px;
+    padding-top: 20px;   
+    align-items: center;
+    
+}
+.items{
+   font-weight: 80px;
+   text-align: center;
+   padding: 20px;
+   
+   padding: 8px;
+}
+.food_button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    color: rgb(147, 53, 53);
+    background-color: #ffce8b;
+}
+button{
+    color:black;
+    border: none;
+    background-color: #ffce8b;
+}
+.title{
+    font-size: 30px;
+    background-color: #ffce8b;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* div.food:hover #display2  p{
+    display: block;
+} */
+.banner{
+    grid-row: 3/4;
+    width: 100%;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20240604/pngtree-coconut-chicken-curry-marinade-with-sauce-and-coriander-on-a-white-image_15739672.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    position: relative;
+}
+.form{
+    height: 90vh;
+    width: 100%;
+    background-color:#efddc3;
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+/* button for form */
+
+.item-details{
+   box-shadow: 30px;
+    margin-top: 60px;
+    width: 500px;
+    margin-left: 470px;
+    text-align: center;
+    padding: 25px; 
+    grid-row: 1/2;  
+    border: 3px solid;  
+    border-radius: 14px;
+    box-shadow: 53px;
+    line-height: 23px;
+}
+
+.footer_details{
+    grid-row: 2/3;
+    background-color: gray;
+}
+.gr1{
+    text-align: center;
+    line-height: 35px;
+}
+
+
+
+
+
+
+
